@@ -1,0 +1,27 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito&display=swap");
+
+/* || RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* || VARIABLES */
+:root {
+	/* FONT */
+	--FF: 'Nunito', sans-serif;
+	--FS: 1.5rem;
+	--FS-XL: 3rem;
+
+	/* COLOR */
+	--BGCOLOR: #375569;
+	--ALT-BGCOLOR: #1E293B;
+	--RADIAL-COLOR: whitesmoke;
+	--LIGHT-COLOR: whitesmoke;
+	--DARK-COLOR: #000;
+
+	/* SQUARE */
+	--SQUARE-BGCOLOR: papaywhip;
+	--SQUARE-SIZE
+}

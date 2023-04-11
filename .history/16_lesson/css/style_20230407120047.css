@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+/* Begin Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img { display: block; }
+/* End Reset */
+
+/* Utility Classes */
+.nowrap {
+	white-space: nowrap;
+}
+
+.offscreen {
+	position: absolute;
+	left: -10000px;
+}
+
+/* End Utility Classes */
+
+body {
+  font-family: 'Nunito', sans-serif;
+  min-height: 100vh;
+  /* background-image: url("../img/bubbles.png"), linear-gradient(to left, steelblue, #fff);
+  background-repeat: repeat-y, no-repeat;
+  background-position: right center; */
+
+	background: repeat-y right center url("../img/bubbles.png"),
+		no-repeat linear-gradient(to left, steelblue, #fff);
+	background-size: 20%, auto;
+}
+
+.container {
+	background-color: rgb(251, 210, 156);
+	background-image: url('../img/map-2176x1451.png');
+	background-repeat: no-repeat;
+	background-position: top;
+	background-size: cover;
+}
+
+.hero {
+	border-bottom: 2px solid #000;
+	padding: 20px;
+	display: flex;
+	justify-content: flex-start;
+	align
+}
